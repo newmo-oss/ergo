@@ -65,7 +65,7 @@ var ErrNotFound = ergo.NewSentinel("not found")
 ## Installation
 
 ```bash
-go install github.com/newmo-oss/ergo/ergocheck@latest
+go install github.com/newmo-oss/ergo/ergocheck/cmd/ergocheck@latest
 ```
 
 ## Usage
