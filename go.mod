@@ -2,6 +2,9 @@ module github.com/newmo-oss/ergo
 
 go 1.24.11
 
+// ergocheck does not work with go vet -vettool, see #8
+retract v0.1.1
+
 require (
 	github.com/google/go-cmp v0.7.0
 	github.com/gostaticanalysis/analysisutil v0.7.1
