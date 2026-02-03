@@ -2,9 +2,9 @@ package main
 
 import (
 	"github.com/newmo-oss/ergo/ergocheck"
-	"golang.org/x/tools/go/analysis/singlechecker"
+	"golang.org/x/tools/go/analysis/unitchecker"
 )
 
 func main() {
-	singlechecker.Main(ergocheck.Analyzer)
+	unitchecker.Main(ergocheck.Analyzer)
 }
